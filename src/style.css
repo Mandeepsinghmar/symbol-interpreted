@@ -1,0 +1,30 @@
+.App {
+  font-family: Inter, sans-serif;
+  text-align: center;
+}
+html,
+* {
+  box-sizing: border-box;
+}
+.emojis {
+  max-width: 700px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+::placeholder {
+  color: #000;
+  font-size: 0.9rem;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #fff;
+}
+li {
+  margin: 0.5rem;
+}
+.emoji:hover {
+  background-color: #b2fefa;
+}
